@@ -1,34 +1,40 @@
 const express = require('express');
 const cors = require('cors');
+const pino = require('pino');
 const pinoHttp = require('pino-http');
 
-const connectToDatabase = require('./models/db');
 const giftRoutes = require('./routes/giftRoutes');
 const searchRoutes = require('./routes/searchRoutes');
+const authRoutes = require('./routes/authRoutes');
 
 const app = express();
+const logger = pino();
+
 const PORT = process.env.PORT || 3060;
 
+// Middleware
 app.use(cors());
 app.use(express.json());
-app.use(pinoHttp());
+app.use(pinoHttp({ logger }));
 
+// Routes
 app.use('/api/gifts', giftRoutes);
 app.use('/api/search', searchRoutes);
+app.use('/api/auth', authRoutes);
 
+// Health check route
 app.get('/', (req, res) => {
   res.send('GiftLink Backend API is running');
 });
 
-app.listen(PORT, async () => {
-  console.log(`Server running on port ${PORT}`);
-
-  try {
-    await connectToDatabase();
-    console.log('Connected to DB');
-  } catch (error) {
-    console.error('Database connection failed:', error.message);
-  }
+// 404 handler
+app.use((req, res) => {
+  res.status(404).json({
+    error: `Cannot ${req.method} ${req.originalUrl}`,
+  });
 });
 
-module.exports = app;
+// Start server
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
