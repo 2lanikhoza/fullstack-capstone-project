@@ -1,58 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Travel Recommendation Website</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <h1>TravelBloom</h1>
+<section id="about" className="about-section">
+  <h2>About Us</h2>
 
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-      </ul>
+  <p>
+    TravelBloom is a travel recommendation company that helps users discover
+    exciting travel destinations around the world. Our website provides
+    destination suggestions based on user interests such as beaches, temples,
+    mountains, wildlife, and countries.
+  </p>
 
-      <div>
-        <input type="text" placeholder="Enter a destination or keyword" />
-        <button type="button">Search</button>
-        <button type="button">Clear</button>
+  <p>
+    Our mission is to make travel planning simple by giving users clear
+    recommendations, destination images, and useful information in one place.
+    We aim to inspire travellers to explore new places and choose destinations
+    that match their travel goals.
+  </p>
+
+  <div className="company-info">
+    <h3>Company Information</h3>
+    <ul>
+      <li><strong>Company Name:</strong> TravelBloom</li>
+      <li><strong>Industry:</strong> Travel and Tourism</li>
+      <li><strong>Service:</strong> Online travel recommendations</li>
+      <li><strong>Goal:</strong> Helping users find beaches, temples, and country-based destinations.</li>
+    </ul>
+  </div>
+
+  <div className="team-box">
+    <h3>Meet Our Team</h3>
+
+    <div className="team-grid">
+      <div className="team-member">
+        <h4>Thulani Khoza</h4>
+        <p><strong>Role:</strong> Front-End Developer</p>
+        <p>
+          Responsible for building the website layout, navigation bar,
+          search feature, and user interface.
+        </p>
       </div>
-    </nav>
-  </header>
 
-  <main>
-    <section id="home">
-      <h2>Explore Dream Destinations</h2>
-      <p>
-        Discover beautiful places, exciting cultures, and unforgettable travel
-        experiences around the world.
-      </p>
-    </section>
+      <div className="team-member">
+        <h4>Amukelani Nkuna</h4>
+        <p><strong>Role:</strong> Travel Content Specialist</p>
+        <p>
+          Responsible for selecting destination information, travel categories,
+          and recommendation content.
+        </p>
+      </div>
 
-    <section id="about">
-      <h2>About Us</h2>
-      <p>
-        TravelBloom helps travelers find destination recommendations based on
-        their interests, including beaches, temples, and country-based travel
-        suggestions.
-      </p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact Us</h2>
-      <p>Email: info@travelbloom.com</p>
-
-      <form>
-        <input type="text" placeholder="Your Name" />
-        <input type="email" placeholder="Your Email" />
-        <textarea placeholder="Your Message"></textarea>
-        <button type="submit">Submit</button>
-      </form>
-    </section>
-  </main>
-</body>
-</html>
+      <div className="team-member">
+        <h4>GiftLink Support Team</h4>
+        <p><strong>Role:</strong> Customer Support</p>
+        <p>
+          Responsible for helping users with travel enquiries and contact form
+          responses.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
