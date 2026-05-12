@@ -1,15 +1,15 @@
-import React from 'react';
+<nav class="navbar">
+  <div class="logo">GiftLink</div>
 
-export default function Navbar() {
-    return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="/">GiftLink</a>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+  </ul>
 
-            <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="navbar-nav">
-                    {/* Task 1: Add links to Home and Gifts below*/}
-                </ul>
-            </div>
-        </nav>
-    );
-}
+  <div class="search-container">
+    <input type="text" placeholder="Search for gifts..." class="search-input" />
+    <button class="search-btn">Search</button>
+    <button class="clear-btn">Clear</button>
+  </div>
+</nav>
