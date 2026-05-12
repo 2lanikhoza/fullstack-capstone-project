@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Teddy Bear",
+    "category": "Toys",
+    "condition": "New",
+    "age_years": 1,
+    "description": "Soft teddy bear suitable for children."
+  },
+  {
+    "name": "Winter Jacket",
+    "category": "Clothing",
+    "condition": "Good",
+    "age_years": 2,
+    "description": "Warm jacket for winter."
+  },
+  {
+    "name": "Story Book",
+    "category": "Books",
+    "condition": "Used",
+    "age_years": 3,
+    "description": "Children's story book."
+  }
+]
