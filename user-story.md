@@ -1,21 +1,38 @@
-# User Story Template
+\# User Story
 
-## Title
-As a [type of user], I want [some goal] so that [some reason].
 
-## User Story
-As a user of GiftLink, I want to give away household items I no longer need so that someone else can reuse them instead of buying new items.
 
-## Acceptance Criteria
+\## Story
+
+
+
+As a registered user, I want to create a new gift item listing so that the item can be saved and displayed to other users.
+
+
+
+\## Acceptance Criteria
+
+
 
 Given that I am a registered user,  
+
 When I create a new gift item listing,  
+
 Then the item should be saved and displayed to other users.
 
-Given that I am browsing available gifts,  
-When I search for an item by category or keyword,  
-Then matching gift items should be displayed.
 
-Given that I am viewing an item,  
-When I open the item details page,  
-Then I should see the item description, category, location, and availability status.
+
+\## Details and Assumptions
+
+
+
+\- The user must be registered and logged in before creating a gift item listing.
+
+\- The gift item listing should include details such as name, category, condition, age, and description.
+
+\- The gift item should be saved in the MongoDB database.
+
+\- Once saved, the gift item should be available for other users to view.
+
+\- The system should validate required fields before saving the gift item.
+
