@@ -1,12 +1,5 @@
 [
   {
-    "name": "Teddy Bear",
-    "category": "Toys",
-    "condition": "New",
-    "age_years": 1,
-    "description": "Soft teddy bear suitable for children."
-  },
-  {
     "name": "Winter Jacket",
     "category": "Clothing",
     "condition": "Good",
@@ -14,10 +7,108 @@
     "description": "Warm jacket for winter."
   },
   {
+    "name": "Teddy Bear",
+    "category": "Toys",
+    "condition": "New",
+    "age_years": 1,
+    "description": "Soft teddy bear suitable for children."
+  },
+  {
     "name": "Story Book",
     "category": "Books",
     "condition": "Used",
     "age_years": 3,
     "description": "Children's story book."
+  },
+  {
+    "name": "Laptop Bag",
+    "category": "Accessories",
+    "condition": "Good",
+    "age_years": 2,
+    "description": "Black laptop bag with multiple compartments."
+  },
+  {
+    "name": "Running Shoes",
+    "category": "Footwear",
+    "condition": "Good",
+    "age_years": 1,
+    "description": "Comfortable running shoes."
+  },
+  {
+    "name": "Coffee Mug",
+    "category": "Kitchen",
+    "condition": "New",
+    "age_years": 0,
+    "description": "Ceramic coffee mug."
+  },
+  {
+    "name": "Desk Lamp",
+    "category": "Home",
+    "condition": "Used",
+    "age_years": 4,
+    "description": "Adjustable desk lamp."
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "condition": "Good",
+    "age_years": 2,
+    "description": "Portable Bluetooth speaker."
+  },
+  {
+    "name": "Board Game",
+    "category": "Games",
+    "condition": "New",
+    "age_years": 0,
+    "description": "Family board game."
+  },
+  {
+    "name": "School Backpack",
+    "category": "Bags",
+    "condition": "Good",
+    "age_years": 1,
+    "description": "Backpack suitable for school."
+  },
+  {
+    "name": "Water Bottle",
+    "category": "Sports",
+    "condition": "New",
+    "age_years": 0,
+    "description": "Reusable water bottle."
+  },
+  {
+    "name": "Notebook Set",
+    "category": "Stationery",
+    "condition": "New",
+    "age_years": 0,
+    "description": "Set of notebooks for school or office."
+  },
+  {
+    "name": "Puzzle Set",
+    "category": "Toys",
+    "condition": "Good",
+    "age_years": 2,
+    "description": "Puzzle set for children."
+  },
+  {
+    "name": "Cookbook",
+    "category": "Books",
+    "condition": "Used",
+    "age_years": 5,
+    "description": "Recipe cookbook."
+  },
+  {
+    "name": "Scarf",
+    "category": "Clothing",
+    "condition": "Good",
+    "age_years": 1,
+    "description": "Warm scarf."
+  },
+  {
+    "name": "Phone Stand",
+    "category": "Accessories",
+    "condition": "New",
+    "age_years": 0,
+    "description": "Adjustable phone stand."
   }
 ]
