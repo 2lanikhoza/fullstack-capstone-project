@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fullstack-capstone-project/static/css/main.994d915d.css",
+    "main.js": "/fullstack-capstone-project/static/js/main.10390a15.js",
+    "index.html": "/fullstack-capstone-project/index.html",
+    "main.994d915d.css.map": "/fullstack-capstone-project/static/css/main.994d915d.css.map",
+    "main.10390a15.js.map": "/fullstack-capstone-project/static/js/main.10390a15.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.994d915d.css",
+    "static/js/main.10390a15.js"
+  ]
+}
